@@ -1,0 +1,54 @@
+body {
+    color: blue;
+    background-color: rgb(239, 216, 188);
+  }
+
+  .row {
+    display: flex;
+    flex-basis: content;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  ol {
+    display: flex;
+    flex-direction: row;
+  
+  }
+  .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(79, 93, 200);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+  img {
+    float: center;
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+}
+
